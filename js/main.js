@@ -137,7 +137,8 @@ canvas.addEventListener('touchmove', (e) => {
   _touchX = t.clientX; _touchY = t.clientY;
 }, { passive: true });
 
-// ── HUD toggle: three-finger long press ───────────────────────────────────────
+// ── HUD toggle: three-finger long press (600ms) during DISSOLVING ────────────
+// Shows: timer, grain count, airborne, gs, fps, kill%, gravity, diag, version.
 const HUD_PRESS_MS = 600;
 let _hudPressTimer = null;
 document.addEventListener('touchstart', (e) => {
