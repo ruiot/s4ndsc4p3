@@ -1,6 +1,6 @@
 import { initSegmenter, startCamera, stopCamera, flipCamera } from './camera.js';
-import { setupOrientation, handleOrientation, handleMotion } from './orientation.js?v=0.2.21';
-import { simInit, captureAndDissolve, addFluidForce, dislodgeAtPoint } from './sim.js?v=0.2.21';
+import { setupOrientation, handleOrientation, handleMotion } from './orientation.js?v=0.2.23';
+import { simInit, captureAndDissolve, addFluidForce, dislodgeAtPoint } from './sim.js?v=0.2.23';
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let state = 'TITLE';

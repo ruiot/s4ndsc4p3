@@ -1,4 +1,4 @@
-import { gravX, gravY } from './orientation.js?v=0.2.21';
+import { gravX, gravY } from './orientation.js?v=0.2.23';
 
 const _gs = +(new URLSearchParams(location.search).get('gs')) || 3;
 export const GRID_SIZE   = (_gs >= 1 && _gs <= 8) ? _gs : 3;

@@ -1,7 +1,7 @@
 import { extractMaskData, stopCamera, facingMode } from './camera.js';
-import { initParticles, scanRepose, updateParticles, getStaticBuf, getMovingBuf, setFluidRef, initSilhouette, fgParticleCount, airborneCount, GRID_SIZE, DURATION_MS, dislodgeInRadius } from './sand.js?v=0.2.21';
+import { initParticles, scanRepose, updateParticles, getStaticBuf, getMovingBuf, setFluidRef, initSilhouette, fgParticleCount, airborneCount, GRID_SIZE, DURATION_MS, dislodgeInRadius } from './sand.js?v=0.2.23';
 import { FluidSim } from './fluid.js';
-import { gravX, gravY } from './orientation.js?v=0.2.21';
+import { gravX, gravY } from './orientation.js?v=0.2.23';
 
 const CELL = 8;
 // oil tint: dark indigo — visible only where dye > 0
